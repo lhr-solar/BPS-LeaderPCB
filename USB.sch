@@ -89,7 +89,7 @@ L Power_Protection:SP0503BAHT D14
 U 1 1 5C496C9B
 P 3950 4800
 F 0 "D14" H 4155 4846 50  0000 L CNN
-F 1 "SP0503BAHT" H 4000 4650 50  0000 L CNN
+F 1 "SP0503BAHTG" H 4000 4650 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-143" H 4175 4750 50  0001 L CNN
 F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 4075 4925 50  0001 C CNN
 	1    3950 4800

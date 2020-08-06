@@ -496,7 +496,7 @@ F 5 "6mA" H 3800 3550 50  0001 C CNN "If"
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-bps:BAS70-04 U9
+L utsvt-chips:BAS70-04 U9
 U 1 1 5F133A4C
 P 8200 3500
 F 0 "U9" H 8073 3346 50  0000 R CNN
