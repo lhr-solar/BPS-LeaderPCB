@@ -618,7 +618,7 @@ I_IP
 Text Label 7500 4100 2    50   ~ 0
 I_IM
 $Comp
-L utsvt-bps:HX1188FNL U7
+L utsvt-chips:HX1188FNL U7
 U 1 1 5F145AE9
 P 8100 3400
 F 0 "U7" H 8100 3565 50  0000 C CNN

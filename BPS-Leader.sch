@@ -1083,6 +1083,8 @@ F 0 "U1" H 5800 4000 50  0000 C CNN
 F 1 "STM32F413RHTx" H 5800 3900 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5200 2200 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00282249.pdf" H 5800 3900 50  0001 C CNN
+F 4 "" H 5800 3900 50  0001 C CNN "Field4"
+F 5 "7A-8.000MAHJ-T" H 5800 3900 50  0001 C CNN "P/N"
 	1    5800 3900
 	1    0    0    -1  
 $EndComp
