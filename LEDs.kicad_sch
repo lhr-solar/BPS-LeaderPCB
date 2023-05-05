@@ -5,6 +5,73 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "Device:D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "D" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Device" "D" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Pins" "1=K 2=A" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "D_0_1"
+        (polyline
+          (pts
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "D_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -398,7 +465,7 @@
     (uuid dc29fed7-9ced-4f7f-9820-d8e5a5981b17)
   )
 
-  (symbol (lib_id "Device:LED_ALT") (at 147.32 78.74 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 147.32 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c3c069f)
     (property "Reference" "D6" (at 150.2918 77.7748 90)
@@ -419,6 +486,8 @@
     (property "P/N" "APTD2012LCGCK" (at 147.32 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 4377adf3-9791-4ab1-a600-2de85c764f39))
+    (pin "2" (uuid 3249f36d-286e-49ae-b802-ecf6e798b35f))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c392c6a"
@@ -428,7 +497,7 @@
     )
   )
 
-  (symbol (lib_id "Device:LED_ALT") (at 93.98 78.74 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 93.98 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c3c06a8)
     (property "Reference" "D2" (at 96.9772 77.7748 90)
@@ -449,6 +518,8 @@
     (property "P/N" "APTD2012LSURCK" (at 93.98 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid bf674c3a-59c9-4777-9cf4-8b391edc42b1))
+    (pin "2" (uuid a68ec5b5-35d3-4f91-adb9-f91d5e8dfca1))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c392c6a"
@@ -458,7 +529,7 @@
     )
   )
 
-  (symbol (lib_id "Device:LED_ALT") (at 104.14 78.74 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 104.14 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c3c06b1)
     (property "Reference" "D3" (at 107.1372 77.7748 90)
@@ -479,6 +550,8 @@
     (property "P/N" "APTD2012LSURCK" (at 104.14 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 34af9a0c-7faf-4673-93f4-e175e32996ec))
+    (pin "2" (uuid ad478edf-9e54-4512-ab8c-05d56573aa12))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c392c6a"
@@ -488,7 +561,7 @@
     )
   )
 
-  (symbol (lib_id "Device:LED_ALT") (at 114.3 78.74 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 114.3 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c3c06ba)
     (property "Reference" "D4" (at 117.2972 77.7748 90)
@@ -509,6 +582,8 @@
     (property "P/N" "APTD2012LSURCK" (at 114.3 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 0acf7c53-2a1a-4b2b-847f-57252f699d91))
+    (pin "2" (uuid 1e56768a-be5b-4ba5-8842-0d814cb96bfe))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c392c6a"
@@ -518,7 +593,7 @@
     )
   )
 
-  (symbol (lib_id "Device:LED_ALT") (at 124.46 78.74 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 124.46 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c3c06c3)
     (property "Reference" "D5" (at 127.4318 77.7748 90)
@@ -539,6 +614,8 @@
     (property "P/N" "APTD2012LSURCK" (at 124.46 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 5686125d-d4f1-4f01-b828-a811a0812276))
+    (pin "2" (uuid 4de4577b-727e-4e51-bf98-05cf4aac9355))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c392c6a"
@@ -678,7 +755,7 @@
     )
   )
 
-  (symbol (lib_id "Device:LED_ALT") (at 167.64 78.74 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 167.64 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c3c070f)
     (property "Reference" "D7" (at 170.6118 77.7748 90)
@@ -699,6 +776,8 @@
     (property "P/N" "APTD2012LSURCK" (at 167.64 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid cdf64cd4-0be0-411e-9afe-c9ee0eb56df8))
+    (pin "2" (uuid 1bd5416b-a15f-4716-9342-39076be7f9c1))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c392c6a"
@@ -759,7 +838,7 @@
     )
   )
 
-  (symbol (lib_id "Device:LED_ALT") (at 193.04 78.74 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 193.04 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c585dbb)
     (property "Reference" "D9" (at 196.0118 77.7748 90)
@@ -780,6 +859,8 @@
     (property "P/N" "APTD2012LSURCK" (at 193.04 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 7bb7c387-c8cc-4a48-abf1-9ec7c9bd1c14))
+    (pin "2" (uuid b9077c6f-82f7-49b5-a743-87e1871c3434))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c392c6a"
@@ -815,7 +896,7 @@
     )
   )
 
-  (symbol (lib_id "Device:LED_ALT") (at 180.34 78.74 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 180.34 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6cf93b)
     (property "Reference" "D8" (at 183.3118 77.7748 90)
@@ -836,6 +917,8 @@
     (property "P/N" "APTD2012LSURCK" (at 180.34 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 98bfddf7-b5d2-4acc-a006-d774a5f8f9eb))
+    (pin "2" (uuid 738c9632-f653-403c-861c-0d2893e65d69))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c392c6a"
@@ -871,7 +954,7 @@
     )
   )
 
-  (symbol (lib_id "Device:LED_ALT") (at 205.74 78.74 90) (unit 1)
+  (symbol (lib_id "Device:D") (at 205.74 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f16ced0)
     (property "Reference" "D10" (at 208.7118 77.7748 90)
@@ -892,6 +975,8 @@
     (property "P/N" "APTD2012LSURCK" (at 205.74 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 30781b75-66aa-4328-a60e-1f0a35972ce8))
+    (pin "2" (uuid 806ccf91-07d3-48b4-8a80-4ed0a4238cdf))
     (instances
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c392c6a"
