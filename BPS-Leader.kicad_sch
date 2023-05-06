@@ -1772,6 +1772,14 @@
     (uuid ff15b931-4158-4db4-be2a-b04945e1cf26)
   )
 
+  (text_box "Version History\n\nV3.0\n- Added functionality for Bluetooth\n- Can't remember other stuff\n\nV4.0(future)\n- Add reverse polarity protection\n- Add more debugging LED's\n- Change 1u capacitor at contactor input to something smaller (large RC delay)\n- Have functionality to connect to 3 contactors\n- Add extra digital output pins (isolated with optocouplers)"
+    (at 63.246 150.622 0) (size 86.614 25.908)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid fde92770-53aa-47d4-9941-238ae5adae8a)
+  )
+
   (text "Isolated +5V and +3.3V.\nUse GND as local gnd for all board electronic components.\nConnect GNDPWR when using +12V."
     (at 62.23 26.67 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
